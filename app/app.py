@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 # def load_model():
 #   with open('models/author_pipe.pkl', 'rb') as f:
@@ -12,8 +13,15 @@ def calc_fare(num_passengers):
 
 st.title('Subway trip in NY')
 
+df = pd.read_csv('../data/df_cleaned.csv')
+stations = df.groupby("station")["entries_abs"].sum().sort_values(ascending=False).head(10)
+stations = stations.index.tolist()
 
-destination = st.selectbox(label = 'Pick your destination station', options = ['choose station', 'Penn Station'])
+station_names = ['choose station']
+station_names.extend(sorted(stations))
+#st.write(station_names)
+
+destination = st.selectbox(label = 'Pick your destination station', options = station_names)
 arr_time = st.selectbox(label = 'Pick your time of arrival', options = ['choose time','8am-noon','noon-4pm'])
 passengers = st.select_slider(
     'Select number of passengers:',
