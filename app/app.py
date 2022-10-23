@@ -13,7 +13,7 @@ def calc_fare(num_passengers):
 
 st.title('Subway trip in NY')
 
-df = pd.read_csv('../data/df_cleaned.csv')
+df = pd.read_csv('../data/df_cleaned_year.csv')
 stations = df.groupby("station")["entries_abs"].sum().sort_values(ascending=False).head(10)
 stations = stations.index.tolist()
 
