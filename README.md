@@ -108,10 +108,10 @@ Optimized AR Metrics:
 
 |Variable|MAPE|RMSE|MAE|
 |---|---|---|---|
-|Entries|169.18%|4507 people|3947 entries|
-|Exits|64.29%|6337 people| 4842 exits|
+|Entries|169.18%|4507 entries|3947 entries|
+|Exits|64.29%|6337 exits| 4842 exits|
 |Traffic|64.7%|9190 people|7375 people|
-|Rolling Entries|41.9%|2356 people|1595|
+|Rolling Entries|41.9%|2356 entries|1595 entries|
 
 <img src="./resources/entries_preds_vs_actual.jpg" style="height: 400px width: 700px">
 
