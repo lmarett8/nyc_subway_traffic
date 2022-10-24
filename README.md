@@ -107,7 +107,7 @@ Baseline Metrics:
 Optimized AR Metrics:
 
 |Variable|MAPE|RMSE|MAE|
-|---|---|---|
+|---|---|---|---|
 |Entries|169.18%|4507 people|3947 entries|
 |Exits|64.29%|6337 people| 4842 exits|
 |Traffic|64.7%|9190 people|7375 people|
@@ -125,7 +125,7 @@ Optimized AR Metrics:
 
 - By adding up the entries and exits we can get an estimate for the traffic of a station at given time. The metrics for the MAPE are around the same as the metrics for the number of exits. The RMSE is higher because it is the sum of the entries and exits, but it's similar MAPE shows it's classifying around the same error percentage.
 
-<img src="./resources/entries_preds_vs_actual.jpg" style="height: 400px width: 700px">
+<img src="./resources/entries_rolling_preds_vs_actual.jpg" style="height: 400px width: 700px">
 
 - Looking at the graph we can see it matches much more closely to the actual predictions. Our RMSE is much lower than our first AR model being almost half. Our MAPE is nearly a quarter of the value at 42% versus the 169% seen in the original model. This is how a model should be implemented as it needs to continually bring in data to predict future dates. However, how long we decide to predict into the future and how often we update our model would have to depend on the resources we have for computing and the data we are allowed access to.
 
