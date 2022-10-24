@@ -69,6 +69,7 @@ We then looked at the passenger flow at the most loaded stations for the biggest
 <img src="./resources/Passenger_Traffic_at_Fulton_station.jpg" style="height: 400px width: 700px">
 
 As it was mentioned above, the least busy days are around holidays and we see that Thenaksgiving and New Years have the times when the stations have the least amount of passengers. And the most loaded day is the midweek/workday.
+
 ---
 
 ## Preprocessing & Modeling
