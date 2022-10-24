@@ -63,10 +63,10 @@ In addition to plotting the entries and exits from a variety of perspectives, we
 After cleaning the data for any clearly incorrect values, we then dropped any columns that are irrelevant to our goals for the project. Now we have our cleaned dataframe to use for modeling.
 We then looked at the passenger flow at the most loaded stations for the biggest holidays and major event days like Christmas, Thanksgiving, the NY Marathon etc.. We found which stations get most passengers and compared the load for certain stations at different holidays.
 
-<img src="./resources/Passenger Traffic at Penn station.jpg" style="height: 400px width: 700px">
-<img src="./resources/Passenger Traffic at Times sq station.jpg" style="height: 400px width: 700px">
-<img src="./resources/Passenger Traffic at Canal station.jpg" style="height: 400px width: 700px">
-<img src="./resources/Passenger Traffic at Fulton station.jpg" style="height: 400px width: 700px">
+<img src="./resources/Passenger_Traffic_at_Penn_station.jpg" style="height: 400px width: 700px">
+<img src="./resources/Passenger_Traffic_at_Times_sq_station.jpg" style="height: 400px width: 700px">
+<img src="./resources/Passenger_Traffic_at_Canal_station.jpg" style="height: 400px width: 700px">
+<img src="./resources/Passenger_Traffic_at_Fulton_station.jpg" style="height: 400px width: 700px">
 
 ---
 
